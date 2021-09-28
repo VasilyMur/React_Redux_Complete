@@ -5,7 +5,6 @@ const intialState = {
 }
 
 export const inputReducer = (state = intialState, action) => {
-  console.log('input text Reducer > ', action)
 
   switch(action.type) {
 
