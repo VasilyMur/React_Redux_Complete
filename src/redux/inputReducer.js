@@ -5,7 +5,6 @@ const intialState = {
 }
 
 export const inputReducer = (state = intialState, action) => {
-
   switch(action.type) {
 
     case INPUT_TEXT:

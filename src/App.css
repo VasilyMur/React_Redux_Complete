@@ -4,7 +4,7 @@
 .wrap {
   position: relative;
   max-width: 1200px;
-  margin: 100px auto 0;
+  margin: 140px auto 0;
 }
 .card {
   display: flex;
@@ -90,5 +90,18 @@ input {
   z-index: 999999;
 }
 
+.error-message {
+  position: absolute;
+  left: 40%;
+  top: -80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  max-width: 240px;
+  color: #fff;
+  background: linear-gradient(20deg, rgba(255,0,0,1) 0%, rgba(200,0,0,1) 100%);
+  padding: 10px 20px;
+  border: 1px solid rgba(10, 10, 10, 0.25);
+}
 
 
